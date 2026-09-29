@@ -1,0 +1,8 @@
+---
+title: "tidyverse"
+author: "Christian Geist"
+categories: [data science, data wrangling]
+---
+Collection of packages
+
+The `tidyverse` is a collection of R packages designed for data science that share a common approach to working with data. It provides a convenient foundation for importing, cleaning, transforming, visualizing, and analysing data in R.

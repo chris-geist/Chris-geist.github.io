@@ -1,0 +1,31 @@
+/* css styles */
+
+/* Make the two-column CV span the full available page width */
+.columns {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Remove the default right-side gutter from the second column */
+.columns > .column:last-child {
+  padding-right: 0;
+}
+
+details {
+  margin: 0 !important;
+}
+
+details + details {
+  margin-top: 0 !important;
+}
+
+/* Add space after the last dropdown when regular content follows */
+details:last-of-type {
+  margin-bottom: 1rem !important;
+}
+
+#quarto-document-content {
+margin-right: 2cm;
+}

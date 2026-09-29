@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "CSS Portfolio Christian Geist"
+
+  page-footer:
+    left: "&copy; Copyright 2026, Christian Geist"
+    right: "This page is built with [Quarto](https://quarto.org/)."
+
+  sidebar:
+    pinned: true
+    align: center
+    style: "docked"
+    collapse-level: 1
+    contents:
+
+      - text: "About"
+        href: index.qmd
+
+      - text: "CV"
+        href: cv/index.qmd
+
+      - text: "Projects"
+        href: projects/index.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
